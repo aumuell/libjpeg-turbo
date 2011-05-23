@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CBB9D92138C2339006B26B3 /* tjutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB9D90138C2339006B26B3 /* tjutil.c */; };
+		4CBFFEFC138A995000961A19 /* tjunittest.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CBFFEFB138A995000961A19 /* tjunittest.c */; };
+		4CBFFEFE138A998100961A19 /* bmp.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CBFFEFD138A998100961A19 /* bmp.c */; };
+		4CBFFF1D138AA87600961A19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBFFF1C138AA87600961A19 /* Foundation.framework */; };
+		4CBFFF20138AADCA00961A19 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBFFF1E138AADCA00961A19 /* libjpeg.a */; };
+		4CBFFF21138AADCA00961A19 /* libturbojpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBFFF1F138AADCA00961A19 /* libturbojpeg.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CBB9D90138C2339006B26B3 /* tjutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tjutil.c; path = ../../../tjutil.c; sourceTree = "<group>"; };
+		4CBB9D91138C2339006B26B3 /* tjutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tjutil.h; path = ../../../tjutil.h; sourceTree = "<group>"; };
+		4CBFFED2138A990300961A19 /* tjunittest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tjunittest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBFFEDE138A990300961A19 /* tjunittest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tjunittest-Info.plist"; sourceTree = "<group>"; };
+		4CBFFEFB138A995000961A19 /* tjunittest.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc.preprocessed; fileEncoding = 4; name = tjunittest.c; path = ../../../tjunittest.c; sourceTree = "<group>"; };
+		4CBFFEFD138A998100961A19 /* bmp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bmp.c; path = ../../../bmp.c; sourceTree = "<group>"; };
+		4CBFFEFF138A999600961A19 /* bmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bmp.h; path = ../../../bmp.h; sourceTree = "<group>"; };
+		4CBFFF1C138AA87600961A19 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4CBFFF1E138AADCA00961A19 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjpeg.a; path = ../lib/libjpeg.a; sourceTree = "<group>"; };
+		4CBFFF1F138AADCA00961A19 /* libturbojpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libturbojpeg.a; path = ../lib/libturbojpeg.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CBFFECF138A990300961A19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBFFF1D138AA87600961A19 /* Foundation.framework in Frameworks */,
+				4CBFFF20138AADCA00961A19 /* libjpeg.a in Frameworks */,
+				4CBFFF21138AADCA00961A19 /* libturbojpeg.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CBFFEC7138A990300961A19 = {
+			isa = PBXGroup;
+			children = (
+				4CBFFF11138AA35500961A19 /* Libraries */,
+				4CBFFEDC138A990300961A19 /* tjunittest */,
+				4CBFFED5138A990300961A19 /* Frameworks */,
+				4CBFFED3138A990300961A19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CBFFED3138A990300961A19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CBFFED2138A990300961A19 /* tjunittest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CBFFED5138A990300961A19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CBFFF1C138AA87600961A19 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CBFFEDC138A990300961A19 /* tjunittest */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB9D90138C2339006B26B3 /* tjutil.c */,
+				4CBB9D91138C2339006B26B3 /* tjutil.h */,
+				4CBFFEFB138A995000961A19 /* tjunittest.c */,
+				4CBFFEFF138A999600961A19 /* bmp.h */,
+				4CBFFEFD138A998100961A19 /* bmp.c */,
+				4CBFFEDD138A990300961A19 /* Supporting Files */,
+			);
+			path = tjunittest;
+			sourceTree = "<group>";
+		};
+		4CBFFEDD138A990300961A19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CBFFEDE138A990300961A19 /* tjunittest-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CBFFF11138AA35500961A19 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				4CBFFF1E138AADCA00961A19 /* libjpeg.a */,
+				4CBFFF1F138AADCA00961A19 /* libturbojpeg.a */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CBFFED1138A990300961A19 /* tjunittest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBFFEF8138A990300961A19 /* Build configuration list for PBXNativeTarget "tjunittest" */;
+			buildPhases = (
+				4CBFFECE138A990300961A19 /* Sources */,
+				4CBFFECF138A990300961A19 /* Frameworks */,
+				4CBFFED0138A990300961A19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tjunittest;
+			productName = tjunittest;
+			productReference = 4CBFFED2138A990300961A19 /* tjunittest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CBFFEC9138A990300961A19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "www.libjpeg-turbo.org";
+			};
+			buildConfigurationList = 4CBFFECC138A990300961A19 /* Build configuration list for PBXProject "tjunittest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4CBFFEC7138A990300961A19;
+			productRefGroup = 4CBFFED3138A990300961A19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CBFFED1138A990300961A19 /* tjunittest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CBFFED0138A990300961A19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CBFFECE138A990300961A19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBFFEFC138A995000961A19 /* tjunittest.c in Sources */,
+				4CBFFEFE138A998100961A19 /* bmp.c in Sources */,
+				4CBB9D92138C2339006B26B3 /* tjutil.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4CBFFEF6138A990300961A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					IOSTEST,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../include,
+					../..,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CBFFEF7138A990300961A19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = IOSTEST;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../include,
+					../..,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CBFFEF9138A990300961A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "tjunittest/tjunittest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)/../lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4CBFFEFA138A990300961A19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "tjunittest/tjunittest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)/../lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CBFFECC138A990300961A19 /* Build configuration list for PBXProject "tjunittest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBFFEF6138A990300961A19 /* Debug */,
+				4CBFFEF7138A990300961A19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CBFFEF8138A990300961A19 /* Build configuration list for PBXNativeTarget "tjunittest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBFFEF9138A990300961A19 /* Debug */,
+				4CBFFEFA138A990300961A19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CBFFEC9138A990300961A19 /* Project object */;
+}

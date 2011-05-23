@@ -30,6 +30,10 @@
  * This program tests the various code paths in the TurboJPEG C Wrapper
  */
 
+#ifdef IOSTEST
+#import <Foundation/Foundation.h>
+#endif
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -596,9 +600,18 @@ void bufSizeTest(void)
 int main(int argc, char *argv[])
 {
 	int doyuv=0, i;
+	#ifdef IOSTEST
+    /* change to a directory where writing is allowed */
+    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+    NSString *tmp = NSTemporaryDirectory();
+    chdir([tmp UTF8String]);
+    [pool release];
+	#endif
+
 	#ifdef _WIN32
 	srand((unsigned int)time(NULL));
 	#endif
+
 	if(argc>1)
 	{
 		for(i=1; i<argc; i++)
